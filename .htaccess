@@ -1,0 +1,23 @@
+RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+RewriteCond %{HTTP_HOST} ^mainstride.com
+RewriteRule (.*) https://www.mainstride.com$1 [R=301,L]
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+Header always set X-FRAME-OPTIONS "DENY"
+Header always set X-XSS-Protection "1; mode=block"
+</IfModule>

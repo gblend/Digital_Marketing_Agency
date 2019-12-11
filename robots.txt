@@ -1,0 +1,4 @@
+sitemap: https://www.mainstride.com/sitemap.xml
+
+User-agent: *
+Disallow:

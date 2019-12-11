@@ -1,0 +1,12 @@
+[27-Oct-2019 19:42:16 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[27-Oct-2019 19:43:12 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[27-Oct-2019 20:18:35 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[27-Oct-2019 20:24:25 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[27-Oct-2019 20:30:59 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[28-Oct-2019 09:45:44 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[29-Oct-2019 02:00:22 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[30-Oct-2019 10:22:20 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[30-Oct-2019 10:33:12 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[30-Oct-2019 10:44:40 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[31-Oct-2019 11:26:34 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45
+[04-Nov-2019 04:17:50 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/maingaus/public_html/mail/PHPMailerAutoload.php on line 45

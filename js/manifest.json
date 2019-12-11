@@ -1,0 +1,22 @@
+{
+  "short_name": "MainStride",
+  "name": "mainstride.com",
+  "description": "Digital Marketing Agency",
+  "icons": [
+    {
+      "src":"../images/mainstridelogo_200x200_manifest.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    },
+     {
+      "src":"../images/mainstridelogo_512x512_manifest.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#65CCB8",
+  "border_radius": "10px",
+  "Theme_color": "#F0FAFA",
+  "display": "standalone"
+}
