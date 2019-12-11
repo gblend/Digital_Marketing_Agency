@@ -12,23 +12,23 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $website = $_POST['website'];
 $number = $_POST['number'];
-$emailfrom = "service@mainstride.com";
+$emailfrom = "";
 
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
  $mail->isSMTP();                                      // Set mailer to use SMTP
- $mail->Host = 'server270.web-hosting.com';  // Specify main and backup SMTP servers
+ $mail->Host = '';  // Specify main and backup SMTP servers
  $mail->SMTPAuth = true;                               // Enable SMTP authentication
- $mail->Username = 'service@mainstride.com';                 // SMTP username
- $mail->Password = 'Password123*';                           // SMTP password
+ $mail->Username = '';                 // SMTP username
+ $mail->Password = '';                           // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
  $mail->Port = 465;                                    // TCP port to connect to
 $mail->setFrom($emailfrom);
-$mail->addAddress('service@mainstride.com'/*, 'MainStride'*/);     // Add a recipient
+$mail->addAddress(''/*, 'MainStride'*/);     // Add a recipient
 // $mail->addAddress('ellen@example.com');               // Name is optional
 $mail->addReplyTo($email);
-$mail->addCC('gabrielilochi@gmail.com');
+$mail->addCC('');
 //$mail->addBCC('email@example.com');
 
 $mail->isHTML(true);                                  // Set email format to HTML
