@@ -1,1 +1,1 @@
-mainstride is a digital marketing agency web application.
+This is a digital marketing agency web application.
